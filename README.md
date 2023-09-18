@@ -1,4 +1,10 @@
 # Assessment
+**DevOps Examination Question**
+
+*Objective: Demonstrate the ability to conceptualize a method to transform a 3D object from an STL file into a visual representation using drones or spherical objects.*
+
+**Problem Statement**: Given an STL file of a 3D object, design a system or write a program that will 
+use drones or spherical objects to represent the 3D shape in real space.
 
 # Steps
 
