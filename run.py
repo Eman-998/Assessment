@@ -55,8 +55,8 @@ bpy.data.textures["Texture for light effect"].color_ramp.elements[3].color = (0.
 #Turn edit mode on for crown
 bpy.ops.object.editmode_toggle()
 
-# Merge vertices by distance with a threshold of 50 to have arround 6
-bpy.ops.mesh.remove_doubles(threshold=49.2)
+# Merge vertices by distance with a threshold of 49.25 to have around 690 drones
+bpy.ops.mesh.remove_doubles(threshold=49.25)
 
 # Create a vertex group named "drones" and assign all vertices to it
 # go to drone show tab and select the created vertex group
@@ -68,7 +68,7 @@ bpy.ops.skybrush.create_formation(name="crownn", contents='SELECTED_OBJECTS')
 # Append the formation to the storyboard
 # Recalculate transition of the entire storyboard
 # Update time markers
-
+# Adding Light effects from LED tabs
 
 bpy.context.scene.frame_end = 700
 
